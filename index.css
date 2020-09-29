@@ -53,31 +53,66 @@ html {
 
 body {
     font-family: 'Roboto Mono', monospace;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
+.container {
+    width: 80%;
+}
+
+header {
+    border:1px black solid;
+    width: 100%;
+    height: 350px;
+}
+
+.headtext {
+    float: right;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2rem;
+}
 nav {
-    padding: 30px 0;
+    width: 100%;
+    padding: 30px;
 }
 
 nav li {
     display:inline;
-    font-size 10 rem;
+    font-size 10rem;
     background: green;
     width: 20px;
     padding: 10px;
     border-radius: 15px;
+    
 }
 
 nav li a {
     text-decoration: none;
     word-wrap: break-word;
+    color:white;
 }
 
 nav .li1 {
     background: #FF764E;
+    
 }
+
+nav .li2 {
+    background:#5ED3EB ;
+}
+
+nav .li3 {
+    background: #FFCD69;
+}
+
+
+
+
 
 .hero img{
     background-position: center;
@@ -86,14 +121,17 @@ nav .li1 {
     float: left;
 }
 
-.campfire {
-    width: 10%;
-    margin: auto;
-    padding-right: 300px;
+.campfire img{
+    width: 20%;
+    
 }
 
 .roadtrip {
-    width: 10%;
+    width: 20%;
     margin:auto;
+}
+
+.mountains img{
+    width: 100%;
 }
 
